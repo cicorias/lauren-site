@@ -1,0 +1,4 @@
+baseURL = 'https://cicorial.github.io/cicorial'
+languageCode = 'en-us'
+title = 'Lauren M Cicoria'
+theme = 'simplecss'
