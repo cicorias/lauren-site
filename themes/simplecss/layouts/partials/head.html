@@ -4,7 +4,7 @@
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="description" content="{{ .Site.Params.Description }}" />
     <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . " , "}}{{ end }}" />
-    <link rel="stylesheet" href='{{ "/css/simple.css" | relURL }}' media="all"
+    <link rel="stylesheet" href='{{ "css/simple.css" | relURL }}' media="all"
         onload="this.media='all'; this.onload=null;" />
     {{- partial "head_custom.html" . -}}
 </head>
